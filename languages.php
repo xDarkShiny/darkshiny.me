@@ -1,8 +1,7 @@
-
 <?php
-    require_once 'db.php';
-    $title = 'DarkShiny - 404';
-    require_once 'discord.php';
+require_once 'companenets/db.php';
+$title = 'DarkShiny - Home';
+require_once 'companenets/discord.php';
 
 
 ?>
@@ -11,6 +10,8 @@
 <head>
     <link href="styles.css" rel="stylesheet" type="text-css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBDN5XQZ1D"></script>
 
     <script>
@@ -22,8 +23,6 @@
     </script>
     <title><?php echo $title ?></title>
     <script src="https://kit.fontawesome.com/34cdb9ec8a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <link href="/dist/output.css" rel="stylesheet">
     <meta name="description" content="I am interested in database field. I like simple designs. I know a bit about React and vue. My domain is php." />
     <meta name="robots" content="darkshiny, darkshinyme, darkshiny.me, shiny, dark, php, portfolyo, shinydark" />
@@ -34,13 +33,12 @@
             font-family: 'Sora', sans-serif;
         }
 
-        .background-color {
+        html {
+            scroll-behavior: smooth;
 
-            background-color: #1C1C1C;
         }
-
-        .text-color {
-            color: #7B7B7B;
+        .discord {
+            background-color: #18191c;
         }
         .text-coloridle {
             color: #c5a41f;
@@ -70,20 +68,32 @@
 
     </style>
 </head>
-<body class="bg-black">
-        <div class="flex min-h-screen justify-center items-center">
-                    <div class="flex flex-col space-y-3 items-center">
-                        <img class="w-72 h-72" src="https://www.emojiall.com/en/header-svg/%F0%9F%98%AD.svg">
+<body class="bg-black p-10">
 
-                        <h1 class="text-red-500 text-style font-extrabold text-7xl">404</h1>
-                        <h2 class="text-3xl text-style text-white/60">Birşeyler Ters Gitti Yada Aradığın Sayfa Yok.Bunları Deneyebilirsin;</h2>
-                            <div class="flex space-x-3">
-                                <a href="index.php" class="text-2xl text-style text-green-500">anasayfa</a>
-                                <a href="index.php" class="text-2xl text-style text-green-500">projects</a>
-                                <a href="index.php" class="text-2xl text-style text-green-500">blog</a>
-                            </div>
-                    </div>
-            </div>
+<div class="fixed bottom-0 right-0 p-5">
+    <button onclick="topFunction()" id="myBtn" class="rounded-full  w-10 h-10 bg-green-600"><i class="fa-solid fa-angles-up"></i></button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</div>
 
 </body>
 </html>
