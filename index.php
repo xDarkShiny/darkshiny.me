@@ -77,7 +77,9 @@
             <div class="min-h-screen space-x-10 justify-center items-center space-y-10 p-5 sm:p-0 flex flex-col sm:flex-row">
                 <!--bio-->
                 <div class="flex flex-col text-end mt-7 ml-16 sm:ml-0 space-y-5 ">
-                        <a class="text-white/80 text-5xl text-style font-bold">Hi I am <span class="text-green-500">DarkShiny.</span> </a>
+                    <a class="text-white/80 text-5xl text-style flex flex-col font-bold"><h1>Hi I am <span class="text-green-500">DarkShiny.</span></h1>
+                            <span class="text-xl text-style text-pink-500">Front-End Developer</span>
+                        </a>
                         <h2 class="text-white/80 w-96 text-3xl text-style ">"I am interested in database field. I like simple designs. I know a bit about React and vue. My domain is php."</h2>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <a class="flex items-center space-x-3">
@@ -97,7 +99,7 @@
                                     <h1 class="text-4xl text-blue-900 text-style font-bold">T.Css</h1>
                                 </a>
                         </div>
-                    <a href="#" class="text-2xl text-style text-green-500">Learn More..</a>
+                    <a href="languages.php" class="text-2xl text-style text-green-500">Learn More..</a>
                 </div>
                 <!--discord-->
           <div style="perspective:600px" class="mr-3 scale-100 xl:hover:scale-[1.15] z-10 hover:z-50 transition-all duration-200 ease-out mb-8 xl:mb-0">
@@ -108,22 +110,22 @@
                        if ($json->data->discord_status == 'dnd') {
 
                            echo "
-                             <img class='absolute ml-14 mt-7 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879152212770976.webp?size=96&quality=lossless'> "
+                             <img class='absolute ml-14 mt-14 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879152212770976.webp?size=96&quality=lossless'> "
                            ;
 
                        }elseif ($json->data->discord_status == 'online') {
                            echo  "
-                             <img class='absolute ml-14 mt-7 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879208143683635.webp?size=96&quality=lossless'> "
+                             <img class='absolute ml-14 mt-14 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879208143683635.webp?size=96&quality=lossless'> "
                            ;
                        }elseif ($json->data->discord_status == 'offline'){
                            echo  "
-                             <img class='absolute ml-14 mt-7 p-2 discord rounded-full w-8 h-8' src='https://images-ext-1.discordapp.net/external/Cw_cCzdkGZqJHSVSpnI3o5zeXwKwFiY6JW2cXRvgnkw/%3Fsize%3D96%26quality%3Dlossless/https/cdn.discordapp.com/emojis/735879096638111795.webp' >"
+                             <img class='absolute ml-14 mt-14 p-2 discord rounded-full w-8 h-8' src='https://images-ext-1.discordapp.net/external/Cw_cCzdkGZqJHSVSpnI3o5zeXwKwFiY6JW2cXRvgnkw/%3Fsize%3D96%26quality%3Dlossless/https/cdn.discordapp.com/emojis/735879096638111795.webp' >"
                            ;
 
                        }elseif ($json->data->discord_status == 'idle')
 
                            echo  "
-                             <img class='absolute ml-14 mt-7 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879062815244460.webp?size=96&quality=lossless'>"
+                             <img class='absolute ml-14 mt-14 p-2 discord rounded-full w-8 h-8' src='https://cdn.discordapp.com/emojis/735879062815244460.webp?size=96&quality=lossless'>"
                            ;
                        ?>
                    </div>

@@ -72,10 +72,10 @@ require_once 'companenets/discord.php';
         <?php
         include 'companenets/navbar.php';
     ?>
-        <a class="flex text-5xl mt-20 text-style font-bold text-end text-green-500">Languages | I Use</a>
+        <a class="flex text-5xl mt-20 text-style font-bold justify-center text-center text-white/60">Languages | I Use</a>
 
-
-        <div class="grid mt-20 p-10 grid-cols-2 sm:grid-cols-12 gap-4">
+        <a class="flex mt-20 text-3xl mt-20 text-style font-bold text-end text-green-500/60">learned (medium)</a>
+        <div class="grid  p-10 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-12 lg:grid-cols-4 sm:grid-cols-3 gap-4">
             <a class="flex flex-col items-center space-y-3">
                 <img class="w-32 bg-green-500 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/vue-dot-js.svg">
                 <h1 class="text-4xl text-green-900 text-style font-bold">Vue</h1>
@@ -98,7 +98,7 @@ require_once 'companenets/discord.php';
             </a>
             <a class="flex flex-col items-center space-y-3">
                 <img class="w-32 bg-purple-900 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/adobexd.svg">
-                <h1 class="text-4xl text-purple-900 text-style font-bold">Html</h1>
+                <h1 class="text-4xl text-purple-900 text-style font-bold">A.xd</h1>
             </a>
             <a class="flex flex-col items-center space-y-3">
                 <img class="w-32 bg-red-900 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/fontawesome.svg">
@@ -110,8 +110,41 @@ require_once 'companenets/discord.php';
             </a>
 
         </div>
+        <a class="flex mt-10 text-3xl mt-20 text-style font-bold text-end text-red-500/60">want to learn</a>
+        <div class="grid p-10 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-12 lg:grid-cols-4 sm:grid-cols-3 gap-4">
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-red-500 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg">
+                <h1 class="text-4xl text-red-900 text-style font-bold">Java</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-yellow-500 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg">
+                <h1 class="text-4xl text-yellow-900 text-style font-bold">Python</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-orange-500 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/firebase.svg">
+                <h1 class="text-4xl text-orange-900 text-style font-bold">F.Base</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-blue-700 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/react.svg">
+                <h1 class="text-4xl text-blue-900 text-style font-bold">R.Native</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-green-700 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/nuxt-dot-js.svg">
+                <h1 class="text-4xl text-green-900 text-style font-bold">Nuxt</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-purple-900 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/next-dot-js.svg">
+                <h1 class="text-4xl text-purple-900 text-style font-bold">Next</h1>
+            </a>
+            <a class="flex flex-col items-center space-y-3">
+                <img class="w-32 bg-pink-900 bg-opacity-30 rounded-2xl p-2 h-32" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/cplusplus.svg">
+                <h1 class="text-4xl text-pink-900 text-style font-bold">c++</h1>
+            </a>
 
-<div class="fixed bottom-0 right-0 p-5">
+        </div>
+
+
+        <div class="fixed bottom-0 right-0 p-5">
     <button onclick="topFunction()" id="myBtn" class="rounded-full  w-10 h-10 bg-green-600"><i class="fa-solid fa-angles-up"></i></button>
     <script>
         //Get the button:
