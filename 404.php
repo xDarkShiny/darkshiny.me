@@ -1,8 +1,8 @@
 
 <?php
-    require_once 'db.php';
+    require_once 'components/db.php';
     $title = 'DarkShiny - 404';
-    require_once 'discord.php';
+    require_once 'components/discord.php';
 
 
 ?>
@@ -79,8 +79,8 @@
                         <h2 class="text-3xl text-style text-white/60">Birşeyler Ters Gitti Yada Aradığın Sayfa Yok.Bunları Deneyebilirsin;</h2>
                             <div class="flex space-x-3">
                                 <a href="index.php" class="text-2xl text-style text-green-500">anasayfa</a>
-                                <a href="index.php" class="text-2xl text-style text-green-500">projects</a>
-                                <a href="index.php" class="text-2xl text-style text-green-500">blog</a>
+                                <a href="projects" class="text-2xl text-style text-green-500">projects</a>
+                                <a href="languages" class="text-2xl text-style text-green-500">blog</a>
                             </div>
                     </div>
             </div>

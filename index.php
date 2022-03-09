@@ -1,7 +1,7 @@
 <?php
-    require_once 'companenets/db.php';
+    require_once 'components/db.php';
     $title = 'DarkShiny - Home';
-    require_once 'companenets/discord.php';
+    require_once 'components/discord.php';
 
 
 ?>
@@ -71,7 +71,7 @@
 <body class="bg-black p-10">
         <!--navbar-->
             <?php
-                include 'companenets/navbar.php';
+                include 'components/navbar.php';
            ?>
         <!--contents-->
             <div class="min-h-screen space-x-10 justify-center items-center space-y-10 p-5 sm:p-0 flex flex-col sm:flex-row">
@@ -100,6 +100,10 @@
                                 </a>
                         </div>
                     <a href="languages.php" class="text-2xl text-style text-green-500">Learn More..</a>
+                    <div class="flex space-x-3 ">
+                        <a target="_blank" href="https://github.com/xDarkShiny" class="text-white/60 hover:text-green-500 text-4xl scale-100 xl:hover:scale-[1.15] z-10 hover:z-50 transition-all duration-200 ease-out mb-8 xl:mb-0"><i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" class="text-white/60 hover:text-green-500 text-4xl scale-100 xl:hover:scale-[1.15] z-10 hover:z-50 transition-all duration-200 ease-out mb-8 xl:mb-0"><i class="fa-brands fa-discord"></i></a>
+                    </div>
                 </div>
                 <!--discord-->
           <div style="perspective:600px" class="mr-3 scale-100 xl:hover:scale-[1.15] z-10 hover:z-50 transition-all duration-200 ease-out mb-8 xl:mb-0">

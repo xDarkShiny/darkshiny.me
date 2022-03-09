@@ -1,7 +1,7 @@
 <?php
-require_once 'companenets/db.php';
-$title = 'DarkShiny - Home';
-require_once 'companenets/discord.php';
+require_once 'components/db.php';
+$title = 'DarkShiny - Lang';
+require_once 'components/discord.php';
 
 
 ?>
