@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'/> 
+  <script src="https://kit.fontawesome.com/e795745585.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style type='text/css'>
+    /* Preloader */
+    #preloader{overflow:hidden;background:rgb(0, 0, 0);left:0;right:0;top:0;bottom:0;position:fixed;z-index:9999}
+    .spinner{position:absolute;top:calc(50% - 20px);left:calc(50% - 20px);animation:rotator 1.4s linear infinite}
+    @keyframes rotator{0%{transform:rotate(0deg)}100%{transform:rotate(270deg)}}
+    .path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:dash 1.4s ease-in-out infinite,colors 5.6s ease-in-out infinite}
+    @keyframes colors{0%{stroke:#4285F4}25%{stroke:#DE3E35}50%{stroke:#F7C223}75%{stroke:#1B9A59}100%{stroke:#4285F4}}
+    @keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}100%{stroke-dashoffset:187;transform:rotate(450deg)}}
+    </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBDN5XQZ1D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LBDN5XQZ1D');
+</script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }</script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+      .card-color {
+          background-color: #0c0b0bde;
+      }
+      .text-style {
+        font-family: 'Poppins', sans-serif;
+      }
+  </style>
+</head>
+  <script type='text/javascript'>
+//<![CDATA[
+// Preloader
+$(window).load(function(){$(".spinner").fadeOut(),$("#preloader").delay(350).fadeOut("slow"),$("body").delay(350).css({overflow:"visible"})});
+//]]> </script>
+<body class="bg-black">
+  <div id='preloader'>
+  <svg class='spinner' height='50px' viewBox='0 0 66 66' width='50px' xmlns='http://www.w3.org/2000/svg'>
+     <circle class='path' cx='33' cy='33' fill='none' r='30' stroke-linecap='round' stroke-width='4'/>
+  </svg>
+  </div>
+    <div class="flex w-full fixed z-40 h-16 px-10 border-b-2 border-purple-500 shadow-purple-500 shadow-sm justify-center space-x-10 items-center card-color bg-opacity-70">
+        <h1 class="text-style font-bold text-white/60 text-xl">darkshiny.</h1>
+        <div class="sm:block hidden flex space-x-5">
+            <a href="#" class="text-style hover:text-purple-500 text-white/60 text-lg">my bio</a>
+            <a href="#" class="text-style hover:text-purple-500 text-white/60 text-lg">ı know</a>
+            <a href="#" class="text-style hover:text-purple-500 text-white/60 text-lg">projects</a>
+        </div>
+        <div class="flex sm:hidden block justify-center">
+            <div>
+              <div class="dropdown relative">
+                <button
+                  class="dropdown-toggle inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg active:text-white transition duration-150 ease-in-out flex items-center whitespace-nowrap"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="caret-down"
+                    class="w-2 ml-2"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  class="dropdown-menu min-w-max absolute hidden card-color text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none "
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <h6
+                    class="text-gray-400 font-semibold text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent"
+                  >
+                    Sayfalar
+                  </h6>
+                  <a
+                      class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-300 hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700 active:bg-blue-600"
+                      href="#"
+                      >my bio</a
+                    >
+                  <li>
+                    <a
+                      class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-300 hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700 active:bg-blue-600"
+                      href="#"
+                      >ı know</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-300 hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
+                      href="#"
+                      >projects</a
+                    >
+                  </li>
+                  <li><hr class="h-0 my-2 border border-solid border-t-0 border-gray-300 opacity-25" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-300 hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
+                      href="#"
+                      >panel</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+        <div data-aos="zoom-in-down" class="min-h-screen cr rounded-2xl flex flex-col items-center justify-center space-x-10 px-20">
+         <div  class="flex flex-col sm:flex-row-reverse items-center space-x-0 space-y-5 sm:space-x-0 sm:space-y-0"> 
+          <img class="sm:h-48 rounded-full ring ring-slate-500" src="https://images-ext-1.discordapp.net/external/wFoGNNJaJeixw7P0XOIohORfzBZVUe2M4isufyfCJhk/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/438037153310834700/32882f109f7a303b97b8d1ac1ac18397.png?width=671&height=671">   
+               <div class="flex items-start space-y-2 flex-col"> 
+                 <div class="flex items-center space-x-2">
+                    <h1 class="text-purple-500  text-style text-4xl sm:text-5xl font-bold">Hi i am darkshiny</h1>
+                    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/wwbrugun.json"
+                        trigger="hover"
+                        colors="primary:#a855f7"
+                        state="intro"
+                        style="width:50px;height:50px">
+                    </lord-icon>
+                 </div>   
+                    <h2 class="text-white/60 sm:w-96 sm:text-center text-style text-3xl">i like creative ideas love simplicity</h2>
+                  </div> 
+            </div>  
+           </div>
+           
+        <div data-aos="zoom-in-down" class="min-h-screen flex card-color flex-col justify-center items-center">
+            <div class="flex flex-col space-y-5">
+              <div class="flex justify-center items-center space-x-5">
+                <h1 class="text-purple-500  text-style text-4xl font-bold">I know</h1>
+                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/ecpncabu.json"
+                    trigger="loop"
+                    colors="primary:#a855f7"
+                    style="width:40px;height:40px">
+                </lord-icon>
+              </div>  
+              <div class="grid gap-4 sm:grid-cols-3 lg:grid-cols-4 grid-cols-1 items-center">
+                <div class="flex card-color transition motion-safe:hover:scale-110 hover:bg-white/10 duration-300 ease-in-out hover:shadow-xl items-center p-3 space-x-5 rounded-2xl">
+                  <img src="https://cdn.iconscout.com/icon/free/png-256/vuejs-2749381-2284771.png" class="p-2 h-20 rounded-2xl bg-green-900">
+                  <h2 class="text-green-900  text-style text-4xl font-bold">vue</h2>
+                </div>
+                <div class="flex card-color transition motion-safe:hover:scale-110 duration-300 hover:bg-white/10 ease-in-out hover:shadow-xl items-center p-3 space-x-5 rounded-2xl">
+                  <img src="https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png" class="p-2 h-20 rounded-2xl bg-blue-900">
+                  <h2 class="text-blue-900  text-style text-4xl font-bold">react</h2>
+                </div>
+                <div class="flex card-color transition motion-safe:hover:scale-110 duration-300 hover:bg-white/10 ease-in-out hover:shadow-xl items-center p-3 space-x-5 rounded-2xl">
+                  <img src="https://icons-for-free.com/download-icon-Tailwind-1324888767228371881_0.svg" class="p-2 h-20 rounded-2xl bg-blue-900">
+                  <h2 class="text-blue-900  text-style text-4xl font-bold">tailwind</h2>
+                </div>
+                <div class="flex card-color transition motion-safe:hover:scale-110 duration-300 hover:bg-white/10 ease-in-out hover:shadow-xl items-center p-3 space-x-5 rounded-2xl">
+                  <img src="https://media.discordapp.net/attachments/933433373844705301/968580704894087266/images-removebg-preview.png" class="p-2 h-20 rounded-2xl bg-pink-900">
+                  <h2 class="text-pink-900  text-style text-4xl font-bold">adobe xd</h2>
+                </div>
+              </div>
+
+
+            </div>
+        </div>
+        <div data-aos="zoom-in-down" class="min-h-screen rounded-2xl flex flex-col justify-center items-center">
+          <div class="flex flex-col space-y-5">
+            <div class="flex justify-center items-center space-x-5">
+              <h1 class="text-purple-500  text-style text-4xl mt-10 font-bold">My Projects</h1>
+              <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+              <lord-icon
+                  src="https://cdn.lordicon.com/zjptfwtq.json"
+                  trigger="morph-two-way"
+                  colors="primary:#a855f7"
+                  style="width:50px;height:50px"
+                  class="mt-10">
+              </lord-icon>
+            </div>  
+            <div class="grid gap-4 grid-cols-1  sm:grid-cols-3">
+              <a href="#" class="flex flex-col space-y-3 items-center transition motion-safe:hover:scale-110 duration-300 ease-in-out hover:shadow-xl hover:bg-white/10 border border-white/10 rounded-xl p-2">
+                    <img class="w-52 rounded-2xl" src="https://images-ext-2.discordapp.net/external/yK-JQYKu-91fjseBMheXVNwOPWaREn2QEuKn8gsVyNg/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/438037153310834700/32882f109f7a303b97b8d1ac1ac18397.webp?width=670&height=670">
+                    <h1 class="text-white  font-bold text-2xl text-style ">Coming Soon..</h1>
+                    <h2 class="text-white/60 font-bold text-xl text-style ">Coming Soon..</h1>
+                  </a>
+                  <a href="#" class="flex flex-col space-y-3 items-center transition motion-safe:hover:scale-110 duration-300 ease-in-out hover:shadow-xl hover:bg-white/10 border border-white/10 rounded-xl p-2">
+                    <img class="w-52 rounded-2xl" src="https://images-ext-2.discordapp.net/external/yK-JQYKu-91fjseBMheXVNwOPWaREn2QEuKn8gsVyNg/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/438037153310834700/32882f109f7a303b97b8d1ac1ac18397.webp?width=670&height=670">
+                    <h1 class="text-white  font-bold text-2xl text-style ">Coming Soon..</h1>
+                    <h2 class="text-white/60 font-bold text-xl text-style ">Coming Soon..</h1>
+                  </a>
+                  <a href="#" class="flex flex-col space-y-3 items-center transition motion-safe:hover:scale-110 duration-300 ease-in-out hover:shadow-xl hover:bg-white/10 border border-white/10 rounded-xl p-2">
+                    <img class="w-52 rounded-2xl" src="https://images-ext-2.discordapp.net/external/yK-JQYKu-91fjseBMheXVNwOPWaREn2QEuKn8gsVyNg/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/438037153310834700/32882f109f7a303b97b8d1ac1ac18397.webp?width=670&height=670">
+                    <h1 class="text-white  font-bold text-2xl text-style ">Coming Soon..</h1>
+                    <h2 class="text-white/60 font-bold text-xl text-style ">Coming Soon..</h1>
+                  </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex mt-10 w-full p-3 justify-between items-center card-color">
+          <h1 class="text-white/60 text-2xl">this site made by darkshiny.</h1>  
+          <div class="flex items-center space-x-5">
+          <a href="https://discord.com/users/438037153310834700" target="_blank"><i class="text-2xl text-purple-500 fa-brands fa-discord"></i></a>
+          <a href="mailto:darkshiny@duck.com" target="_blank"><i class="text-2xl text-purple-500 fa-solid fa-at"></i></a>
+          <a href="https://github.com/xDarkShiny" target="_blank"><i class="text-2xl text-purple-500 fa-brands fa-github"></i></a>
+          </div>
+        </div>
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
