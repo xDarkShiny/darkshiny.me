@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<style>
+			.text-font {
+				font-family: 'Inter', sans-serif;
+			}
+			.text-font2 {
+				font-family: 'Quicksand', sans-serif;
+			}
+			.daire {
+				background-color: rgb(0, 0, 0);
+				height: 40px;
+				-moz-border-radius:40px;
+				-webkit-border-radius: 40px;
+				width: 40px;
+			}
+		</style>
+
+		%sveltekit.head%
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+	<script>
+		AOS.init();
+	  </script>
+</html>
