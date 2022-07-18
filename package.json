@@ -9,6 +9,7 @@
 		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
+		"@rollup/plugin-json": "^4.1.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.7",
@@ -20,6 +21,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-lanyard": "^1.0.2"
+		"@formkit/auto-animate": "^1.0.0-beta.1",
+		"flowbite": "^1.4.7",
+		"svelte-lanyard": "^1.0.2",
+		"sveltestrap": "^5.9.0"
 	}
 }

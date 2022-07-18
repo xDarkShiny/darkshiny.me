@@ -1,0 +1,32 @@
+[
+    {
+      "largeImage": "https://media.discordapp.net/attachments/933433373844705301/997082517725249608/unknown.png?width=960&height=464",
+      "projectsName": "Todo'rs",
+      "projectsDescription": "A todo list application that allows you to create, edit, and delete tasks.",
+      "projectsLink": "https://todo-r-omega.vercel.app/",
+      "projectsGithub": "https://github.com/xDarkShiny/to-do-r",
+      "lang": "Svelte",
+      "lang2": "HTML",
+      "currentStatus": "In Development"
+    },
+    {
+        "largeImage": "https://media.discordapp.net/attachments/933433373844705301/996119151686983811/unknown.png?width=877&height=465",
+        "projectsName": "darkshiny.me",
+        "projectsDescription": "A website that I made for myself. It is a portfolio website that I made for myself.",
+        "projectsLink": "https://darkshiny.me",
+        "projectsGithub": "https://github.com/xDarkShiny/darkshiny.me",
+        "lang": "Svelte",
+        "lang2": "HTML",
+        "currentStatus": "In Development"
+    },
+    {
+        "largeImage": "https://media.discordapp.net/attachments/933433373844705301/994256670807040000/unknown.png?width=813&height=465",
+        "projectsName": "Twister",
+        "projectsDescription": "A flim application that allows you to create, edit, and delete flims.",
+        "projectsLink": "https://twister.vercel.app/",
+        "projectsGithub": "https://github.com/xDarkShiny/twister",
+        "lang": "Svelte",
+        "lang2": "HTML",
+        "currentStatus": "In Development"
+      }  
+  ]

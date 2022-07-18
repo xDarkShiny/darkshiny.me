@@ -25,9 +25,9 @@
         <a href="https://github.com/xDarkShiny" target="_blank" class="bg-black items-center shadow-xl cursor-pointer p-2 daire"><i class="text-md ml-1 rounded-full text-white fa-brands fa-github"></i></a>
         <a href="https://www.twitch.tv/chilldarkshiny" target="_blank" class="bg-black items-center shadow-xl cursor-pointer p-2 daire"><i class="text-md ml-1 rounded-full text-white fa-brands fa-twitch"></i></a>
     </div>
-    <div class="flex items-center space-x-2">
+    <a href="https://stats.uptimerobot.com/kOjwrukvZr" class="flex items-center space-x-2">
         <div class="w-7 h-5 border-4 shadow-xl border-black/20 bg-green-500 rounded-full sm:w-7 sm:h-7"></div>
         <h1 class="text-lg text-green-500 text-font font-bold">Server is online.</h1>
-    </div>
+    </a>
 </div>
 <Footer/>
