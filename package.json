@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@formkit/auto-animate": "^1.0.0-beta.1",
 		"flowbite": "^1.4.7",
+		"svelte-icons-pack": "^2.0.0",
 		"svelte-lanyard": "^1.0.2",
 		"sveltestrap": "^5.9.0"
 	}
