@@ -4,7 +4,7 @@
     import Footer from "./components/footer.svelte";
     import data from './data.json';
 </script>
-<body>
+<body class="relative">
  <Navbar/>
 <div data-aos="zoom-in-down" class="flex flex-col min-h-screen mt-20  lg:px-32 outline-none focus:outline-none ease-linear transition-all duration-150 xl:px-72  px-5 justify-center">
         <h1 class="text-2xl flex sm:space-x-2 space-x-1 mb-6 text-font2 font-bold text-black/80">Projects</h1>

@@ -10,8 +10,8 @@
     import js from "../lib/js.svg";
     import html from "../lib/html.svg";
     import mongo from "../lib/mongo.svg";
-
-
+    import pattern from "../lib/pattern.png";
+    import DraggableDraw from 'svelte-draggable-draw';
 
     import Footer from "./components/footer.svelte";
     let tableData = [];
@@ -34,10 +34,26 @@
             
         })});
         
+
+    let visible = true;
+    let maxVH = 90;
+    let minVH = 85;
+	
+		function switchVisible(){
+			visible = !visible;
+		}
+
+
 </script>
 
 
-<body>
+<body class=" relative">
+    <div data-aos="fade-up" class=" absolute shadow-sm bottom-0 left-0 h-72 w-72 rounded-t-full rounded-br-full flex bg-[#f3f3f3]"></div>
+    <div data-aos="fade-up" class=" absolute top-o right-16 shadow-sm h-32 w-32 rounded-full  flex bg-[#f3f3f3]"></div>
+    <img data-aos="fade-down" class="absolute w-52 left-44 top-72 " src={pattern} alt="">
+
+
+
     <Navbar/>
  <div class="flex flex-col min-h-screen sm:mt-20 mt-32 sm:px-72 px-5 justify-center">
        <div data-aos="zoom-in-down" class="flex flex-col items-start">
@@ -72,5 +88,15 @@
            </div>
        </div>
  </div>
+ <button on:click={switchVisible}>Click me to open</button>
+    <DraggableDraw bind:visible {maxVH} {minVH}>
+        <span slot="left" on:click={switchVisible}>Cancel</span>
+        <span slot="right" on:click={switchVisible}>Submit</span>
+
+        <div>
+            <h1>Content</h1>
+            <p>Can be injected here</p>
+        </div>
+    </DraggableDraw>
  <Footer/>
 </body>
