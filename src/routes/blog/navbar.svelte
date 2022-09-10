@@ -4,7 +4,7 @@
     <h1 class="text-lg text-white/70 text-font">v0.1</h1>
 </div>
 <div class="flex absolute top-20 w-full items-center justify-center gap-4 h-20 ">
-    <a href="yeni" class="text-font text-white text-xl font-bold">Lorem</a>
-    <a href="yeni" class="text-font text-xl text-white font-bold">İpsum</a>
-    <a href="yeni" class="text-font text-xl text-white font-bold">Dolor</a>
+    <a href="yeni" class="text-font text-white text-xl font-bold">Yeni</a>
+    <a href="yeni" class="text-font text-xl text-white font-bold">Popüler</a>
+    <a href="yeni" class="text-font text-xl text-white font-bold">İlgi Çekici</a>
 </div>
