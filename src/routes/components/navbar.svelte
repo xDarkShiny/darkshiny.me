@@ -28,7 +28,7 @@
         <ul class="p-3 bg-white cursor-pointer shadow-xl rounded-lg flex-col space-y-3 text-font">
             <element on:click={() => (window.location.href = "/")}><h1>Home</h1></element>
             <a class="text-font" href="/projects"><h1>Projects</h1></a>
-            <a class="text-font" href="/Blog"><h1>Blog</h1></a>
+            <a class="text-font" href="/blog"><h1>Blog</h1></a>
 
         </ul>
         {/if}
