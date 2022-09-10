@@ -18,6 +18,8 @@
     <div class="flex gap-5">
         <element on:click={() => (window.location.href = "/")} class="text-font sm:block hidden text-xl"><h1>Home</h1></element>
         <a class="text-font sm:block hidden text-xl" href="/projects"><h1>Projects</h1></a>
+        <a class="text-font sm:block hidden text-xl" href="/blog"><h1>Blog</h1></a>
+
     </div>
     <a href="mailto:darkshiny@duck.com" class="px-3 py-2 border-2 sm:block hidden border-black text-font rounded-[7.5px] mr-1 mb-1  ring-black/20 bg-black text-white hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150">Let's Talk!</a>
     <div use:autoAnimate class="sm:hidden block ">
@@ -26,7 +28,8 @@
         <ul class="p-3 bg-white cursor-pointer shadow-xl rounded-lg flex-col space-y-3 text-font">
             <element on:click={() => (window.location.href = "/")}><h1>Home</h1></element>
             <a class="text-font" href="/projects"><h1>Projects</h1></a>
-            <a class="text-font" href="/knowladge"><h1>Knowledge</h1></a>
+            <a class="text-font" href="/Blog"><h1>Blog</h1></a>
+
         </ul>
         {/if}
     </div>

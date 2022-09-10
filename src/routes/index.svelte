@@ -11,7 +11,6 @@
     import html from "../lib/html.svg";
     import mongo from "../lib/mongo.svg";
     import pattern from "../lib/pattern.png";
-    import DraggableDraw from 'svelte-draggable-draw';
 
     import Footer from "./components/footer.svelte";
     let tableData = [];
@@ -34,14 +33,6 @@
             
         })});
         
-
-    let visible = true;
-    let maxVH = 90;
-    let minVH = 85;
-	
-		function switchVisible(){
-			visible = !visible;
-		}
 
 
 </script>
@@ -88,15 +79,6 @@
            </div>
        </div>
  </div>
- <button on:click={switchVisible}>Click me to open</button>
-    <DraggableDraw bind:visible {maxVH} {minVH}>
-        <span slot="left" on:click={switchVisible}>Cancel</span>
-        <span slot="right" on:click={switchVisible}>Submit</span>
-
-        <div>
-            <h1>Content</h1>
-            <p>Can be injected here</p>
-        </div>
-    </DraggableDraw>
+ 
  <Footer/>
 </body>
