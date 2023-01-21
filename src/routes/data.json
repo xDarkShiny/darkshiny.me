@@ -5,18 +5,16 @@
       "projectsDescription": "A todo list application that allows you to create, edit, and delete tasks.",
       "projectsLink": "https://todo-r-omega.vercel.app/",
       "projectsGithub": "https://github.com/xDarkShiny/to-do-r",
-      "lang": "Svelte",
-      "lang2": "HTML",
+      "lang": "./lib/css.svg",
       "currentStatus": "In Development"
     },
     {
-        "largeImage": "https://media.discordapp.net/attachments/933433373844705301/996119151686983811/unknown.png?width=877&height=465",
+        "largeImage": "https://cdn.discordapp.com/attachments/933433373844705301/1066306382762094643/image.png",
         "projectsName": "darkshiny.me",
         "projectsDescription": "A website that I made for myself. It is a portfolio website that I made for myself.",
         "projectsLink": "https://darkshiny.me",
         "projectsGithub": "https://github.com/xDarkShiny/darkshiny.me",
         "lang": "Svelte",
-        "lang2": "HTML",
         "currentStatus": "In Development"
     },
     {
@@ -26,7 +24,6 @@
         "projectsLink": "https://twister.vercel.app/",
         "projectsGithub": "https://github.com/xDarkShiny/twister",
         "lang": "Svelte",
-        "lang2": "HTML",
         "currentStatus": "In Development"
       },
       {
@@ -35,9 +32,27 @@
         "projectsDescription": "Privite Discord Bot Website",
         "projectsLink": "https://peenux.vercel.app/",
         "projectsGithub": "https://github.com/xDarkShiny/peenux",
+        "lang": "Desinger waiting",
+        "dev1img": "https://images-ext-1.discordapp.net/external/Zvl9_BV7z2VKp3aXxYdjTCaiAHuARuIdUkHhkjiRDaM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/438037153310834700/a9a5ade7e52d9803a581c8a0d11efc98.png",
+        "dev2img": "https://images-ext-1.discordapp.net/external/c8NXRTrW-S_1XTW7WjEqnI3SAagMgLSlotv5c_sTNWM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/919340230132269137/c4a5c5a42ed7d34172b9681118b43b16.png?width=671&height=671"
+      },
+      {
+        "largeImage": "https://cdn.discordapp.com/attachments/933433373844705301/1066302438916751381/image.png",
+        "projectsName": "svelte-tailwind-starter",
+        "projectsDescription": "svelte-tailwind-starter",
+        "projectsLink": "https://peenux.vercel.app/",
+        "projectsGithub": "https://github.com/xDarkShiny/peenux",
         "lang": "Svelte",
-        "lang2": "HTML",
-        "currentStatus": "Desinger waiting",
+        "dev1img": "https://images-ext-1.discordapp.net/external/Zvl9_BV7z2VKp3aXxYdjTCaiAHuARuIdUkHhkjiRDaM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/438037153310834700/a9a5ade7e52d9803a581c8a0d11efc98.png",
+        "dev2img": "https://images-ext-1.discordapp.net/external/c8NXRTrW-S_1XTW7WjEqnI3SAagMgLSlotv5c_sTNWM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/919340230132269137/c4a5c5a42ed7d34172b9681118b43b16.png?width=671&height=671"
+      },
+      {
+        "largeImage": "https://cdn.discordapp.com/attachments/933433373844705301/1066307121609715732/image.png",
+        "projectsName": "OpenAnime (Theme)",
+        "projectsDescription": "Youtube theme.",
+        "projectsLink": "https://www.openani.me/",
+        "projectsGithub": "https://github.com/xDarkShiny",
+        "lang": "Svelte",
         "dev1img": "https://images-ext-1.discordapp.net/external/Zvl9_BV7z2VKp3aXxYdjTCaiAHuARuIdUkHhkjiRDaM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/438037153310834700/a9a5ade7e52d9803a581c8a0d11efc98.png",
         "dev2img": "https://images-ext-1.discordapp.net/external/c8NXRTrW-S_1XTW7WjEqnI3SAagMgLSlotv5c_sTNWM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/919340230132269137/c4a5c5a42ed7d34172b9681118b43b16.png?width=671&height=671"
       }

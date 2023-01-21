@@ -44,11 +44,10 @@
     <img data-aos="fade-down" class="absolute w-52 left-44 top-72 " src={pattern} alt="">
 
 
-
     <Navbar/>
  <div class="flex flex-col min-h-screen sm:mt-20 mt-32 sm:px-72 px-5 justify-center">
        <div data-aos="zoom-in-down" class="flex flex-col items-start">
-           <h1 class="text-2xl items-center flex sm:space-x-2 space-x-1 mb-10 text-font2 font-bold text-black/80">
+           <h1 class="text-2xl items-center flex sm:space-x-2 space-x-1 mb-10 text-font font-light text-black/80">
                  <h1>Hello 👋 I'm </h1> <div id="img"></div> <p id="username">Loading data...</p>,
            </h1>
            <div class="flex  sm:flex-row flex-col gap-5">
@@ -65,7 +64,7 @@
                         <p id="durum" class="text-font sm:text-lg text-md break-all">Loading data..</p>
                     </div>
                    </div>
-                   <div class="px-4 flex flex-wrap rounded-[7.5px] gap-5 items-center ring-2 ring-black/30 bg-white shadow-xl cursor-pointer backdrop-blur-lg py-1.5">
+                   <div class="px-4 flex flex-wrap rounded-full gap-5 items-center ring-2 ring-black/30 bg-white shadow-xl cursor-pointer backdrop-blur-lg py-1.5">
                         <img class="h-7 hover:text-white" src={html} alt="">
                         <img class="h-7" src={Css} alt="">
                         <img class="h-7 rounded-[7.5px]" src={js} alt="">
