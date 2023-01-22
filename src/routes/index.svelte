@@ -61,18 +61,18 @@
                    <div class="flex items-center gap-3">
                     <div class="sm:mt-5 mt-6 mb-6 items-center flex gap-2">
                         <div id="statusColor" class="w-5 h-5 border-4 shadow-xl border-black/20  rounded-full sm:w-7 sm:h-7"></div>
-                        <p id="durum" class="text-font sm:text-lg text-md break-all">Loading data..</p>
+                        <p id="durum" class="text-font sm:text-lg font-light text-md break-all">Loading data..</p>
                     </div>
                    </div>
-                   <div class="px-4 flex flex-wrap rounded-full gap-5 items-center ring-2 ring-black/30 bg-white shadow-xl cursor-pointer backdrop-blur-lg py-1.5">
-                        <img class="h-7 hover:text-white" src={html} alt="">
-                        <img class="h-7" src={Css} alt="">
-                        <img class="h-7 rounded-[7.5px]" src={js} alt="">
-                        <img class="h-7" src={svelteico} alt="">
-                        <img class="h-7" src={react} alt="">
-                        <img class="h-7" src={php} alt="">
-                        <img class="h-7" src={vue} alt="">
-                        <img class="h-7" src={mongo} alt="">
+                   <div class="px-5 py-2 items-center flex space-x-3 bg-white border-2 mr-2 rounded-full ">
+                        <img class="h-6 hover:text-white" src={html} alt="">
+                        <img class="h-6" src={Css} alt="">
+                        <img class="h-6 rounded-[7.5px]" src={js} alt="">
+                        <img class="h-6" src={svelteico} alt="">
+                        <img class="h-6" src={react} alt="">
+                        <img class="h-6" src={php} alt="">
+                        <img class="h-6" src={vue} alt="">
+                        <img class="h-6" src={mongo} alt="">
                    </div>
                </div>
            </div>

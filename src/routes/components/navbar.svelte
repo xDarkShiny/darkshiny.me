@@ -16,12 +16,12 @@
         <span><h1 class="text-font text-2xl">DarkShiny.</h1><h2 class="text-font2 font-bold text-md">F R O N T - E N D</h2></span>
     </element>
     <div class="flex gap-5">
-        <element on:click={() => (window.location.href = "/")} class="px-7 py-2 border-2 sm:block hidden text-font rounded-full mr-1 mb-1  ring-black/20  text-black hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150"><h1>Home</h1></element>
-        <a class="px-7 py-2 border-2 sm:block hidden text-font rounded-full mr-1 mb-1  ring-black/20  text-black hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150" href="/projects"><h1>Projects</h1></a>
-        <a class="px-7 py-2 border-2 sm:block hidden text-font rounded-full mr-1 mb-1  ring-black/20  text-black hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150" href="/blog"><h1>Blog</h1></a>
+        <element on:click={() => (window.location.href = "/")} class="px-5 py-3 sm:block hidden text-sm text-center items-center text-font pt-3.5 space-x-3 border-2 rounded-full "><h1>HOME</h1></element>
+        <a class="px-5 py-3 sm:block hidden text-sm text-center items-center text-font pt-3.5 space-x-3  border-2 rounded-full" href="/projects"><h1>PROJECTS</h1></a>
+        <a class="px-5 py-3 sm:block hidden text-sm text-center items-center text-font pt-3.5 space-x-3  border-2 rounded-full" href="/blog"><h1>BLOG</h1></a>
 
     </div>
-    <a href="mailto:darkshiny@duck.com" class="px-4 py-2 border-2 sm:block hidden border-black text-font rounded-full mr-1 mb-1  ring-black/20 bg-black text-white hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150">Let's Talk!</a>
+    <a href="mailto:darkshiny@duck.com" class="px-4 py-3 border-2 text-sm sm:block hidden border-black text-font rounded-full mr-1 mb-1  ring-black/20 bg-black text-white hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150">LET'S TALK</a>
     <div use:autoAnimate class="sm:hidden block ">
         <button class="px-3 py-2 border-2 border-black text-font rounded-lg mr-1 mb-1  ring-black/20 bg-black text-white hover:ring-4 outline-none focus:outline-none cursor-pointer shadow-xl ease-linear transition-all duration-150" on:click={clickHandler}>Menu</button>
         {#if isExpanded}
