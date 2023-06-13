@@ -1,66 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-PVTPH3C');</script>
-	<!-- End Google Tag Manager -->
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="index.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
-		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBDN5XQZ1D"></script>
-		<meta name="description" content="Hello 👋 I'm DarkShiny, I develop websites as a hobby. Every time I try, I try and develop different things.">
-		<meta name="keywords" content="HTML, CSS, JavaScript, DarkShiny, Dark, Shiny, Developer, Svelte">
-		<meta name="author" content="DarkShiny">
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-LBDN5XQZ1D');
-		</script>
-		<style>
-			.text-font {
-				font-family: 'Inter', sans-serif;
-			}
-			.text-font2 {
-				font-family: 'Quicksand', sans-serif;
-			}
-			.daire {
-				background-color: rgb(0, 0, 0);
-				height: 40px;
-				-moz-border-radius:40px;
-				-webkit-border-radius: 40px;
-				width: 40px;
-			}
-		</style>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
-		<title>DarkShiny</title>
 	</head>
-	<body>
-		<div>%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVTPH3C"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-	<script>
-		AOS.init();
-	  </script>
 </html>
