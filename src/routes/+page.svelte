@@ -35,9 +35,25 @@
 
           })});
 
+ function isClose() {
+     document.querySelector(".absolute").style.display = "none";
+ }
+
+
+
+
+
+
+
 
 
 </script>
+
+<div class=" absolute items-center justify-center  bg-[#171717] space-y-3 w-full h-32 top-0 flex flex-col">
+    <h1 class="sm:text-xl text-lg">THE SITE IS STILL IN BETA DESIGN CHANGING</h1>
+    <button on:click={isClose} class="bg-[#006BFF] px-20 py-2 rounded-[8px] font-bold">OKAY DEV</button>
+</div>
+
 
  <Navbar/>
 
