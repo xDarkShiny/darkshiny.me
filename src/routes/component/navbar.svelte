@@ -16,7 +16,7 @@
 
 </script>
 
-<div class="w-full items-center flex  justify-between h-[56px] bg-[#232323]">
+<div class="w-full border-b-2 border-[#2f2f2f] items-center flex  justify-between h-[56px] bg-[#232323]">
     <div class="flex ml-5 items-center text-center sm:space-x-8">
         <img class="h-11 mb-2.5" src={logo} alt="">
             <a href="/"  class="sm:block hidden text-sm font-bold " >HOME</a>
