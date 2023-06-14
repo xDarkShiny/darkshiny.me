@@ -43,14 +43,14 @@
 
 <div class="min-h-screen space-y-4 flex flex-col items-center justify-center bg-[#171717]">
    <div class="items-start justify-start sm:text-2xl text-xl sm:mr-0 mr-5 space-x-3 flex">
-    <h1 class="">Hello </h1> <img class="" src={hand}> <h1>I'm </h1><div id="img"> </div> <p id="username">Loading data...</p>
+    <h1 class="">Hello </h1> <img class="" src={hand} alt="resim1"> <h1>I'm </h1><div id="img"> </div> <p id="username">Loading data...</p>
    </div>
 
   <div class="flex space-y-5 sm:space-y-0 sm:space-x-5 flex-col sm:flex-row">
     <div class="flex ml-3 sm:ml-0 sm:space-x-0 sm:space-y-5 space-x-5 flex-row sm:flex-col">
-     <a href="https://discord.com/users/438037153310834700" target="_blank" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={discord} alt=""></a>
-     <a href="https://www.twitch.tv/chilldarkshiny" target="_blank" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={twitch} alt=""></a>
-     <a href="https://github.com/xDarkShiny" target="_blank" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={github} alt=""></a>
+     <a href="https://discord.com/users/438037153310834700" target="_blank" rel="noreferrer" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={discord} alt=""></a>
+     <a href="https://www.twitch.tv/chilldarkshiny" target="_blank" rel="noreferrer" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={twitch} alt=""></a>
+     <a href="https://github.com/xDarkShiny" target="_blank" rel="noreferrer" class="rounded-full flex items-center justify-center bg-white w-8 h-8"><img class="h-5" src={github} alt=""></a>
     </div>
    <div class="flex flex-col sm:w-[500px] md:w-[600px] lg:w-[700px] xl:w-[1000px] ml-3 items-start">
      <h1 class="sm:text-5xl w-auto text-xl  sm:ml-0 font-bold">I develop websites as a hobby. Every time I try, I try and develop different things.</h1>
