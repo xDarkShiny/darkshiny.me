@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 
-
 body {
   font-family: 'Inter', sans-serif;
   color: white;
 }
 
-
-.op {
-  font-family: 'Inter', sans-serif;
+::selection {
+  color: black;
+  background-color: #006BFF;
 }
