@@ -47,8 +47,9 @@ function header() {
             </div>
             <div className="sm:hidden block">
                 <div className="items-center flex flex-col">
-                    <div className="bg-[#232323] w-full h-[57px] border-b-4 border-[#535252] flex justify-between">
+                    <div className="bg-[#232323] w-full h-[57px] border-b-4 border-[#535252] flex  items-center justify-center justify-between">
                         <img className="mb-2 ml-5" src={logo} alt=""/>
+                        <h1 className="text-white text-[#6D6D6D] uppercase">ITS A MOBILE VERSION</h1>
                         <button className="px-4 text-white" onClick={toggleMenu}><img src={Hamburguer} alt=""/></button>
                     </div>
                     {menu === true &&
