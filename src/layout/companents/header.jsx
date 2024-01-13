@@ -28,18 +28,14 @@ function header() {
                     <div className="flex space-x-10 items-center text-white font-bold uppercase px-2">
                         <img className="mb-2 ml-5" src={logo} alt="myLogo"/>
                         <a href="/" >Home</a>
-                        <a href="/projects">Projects</a>
-                        <a href="/beta">BETA v0.2</a>
+                        <a className="font-normal" href="/projects">Projects</a>
 
                     </div>
-                    <a href="#" className="h-full w-32 bg-[#006BFF] hover:bg-[#005CDB] items-center justify-center space-x-3 flex font-bold text-white text-sm transition">
+                    <a href="mailto:darkshiny@duck.com" className="h-full w-40 bg-[#006BFF] hover:bg-[#005CDB] items-center justify-center space-x-3 flex font-bold text-white text-sm transition">
                         <img src={confetti} alt="confetti"/>
-                               <div className="flex flex-col">
+                               <div  className="flex flex-col">
                                    <h1>
-                                       LETS
-                                   </h1>
-                                   <h1>
-                                       TALK
+                                       LETS TALK
                                    </h1>
                                </div>
                     </a>
@@ -56,7 +52,6 @@ function header() {
                         <div className="bg-[#006BFF] w-full h-[40px] space-x-5 text-white font-bold uppercase flex items-center justify-center">
                             <a href="/" >Home</a>
                             <a href="/projects">Projects</a>
-                            <a href="/beta">BETA v0.2</a>
                         </div>
                     }
 
