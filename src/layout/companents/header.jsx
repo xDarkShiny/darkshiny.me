@@ -25,10 +25,10 @@ function header() {
         <>
             <div className="sm:block hidden ">
                 <div className="bg-[#232323] w-full h-[57px] border-b-4 border-[#535252] flex justify-between">
-                    <div className="flex space-x-10 items-center text-white font-bold uppercase px-2">
-                        <img className="mb-2 ml-5" src={logo} alt="myLogo"/>
-                        <a href="/" >Home</a>
-                        <a className="font-normal" href="/projects">Projects</a>
+                    <div className="flex space-x-4 items-center text-white font-bold uppercase px-2">
+                        <img className="mb-2 ml-5 transition-all ease-in-out duration-300 hover:scale-95 hover:text-sm rounded-lg" src={logo} alt="myLogo"/>
+                        <a className='transition-all ease-in-out duration-300 hover:scale-95 hover:bg-white/10 py-2 hover:text-sm px-3 rounded-lg' href="/" >Home</a>
+                        <a className="transition-all ease-in-out duration-300 hover:scale-95 hover:bg-white/10 py-2 hover:text-sm px-3 rounded-lg" href="/projects">Projects</a>
 
                     </div>
                     <a href="mailto:darkshiny@duck.com" className="h-full w-40 bg-[#006BFF] hover:bg-[#005CDB] items-center justify-center space-x-3 flex font-bold text-white text-sm transition">
