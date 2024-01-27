@@ -5,7 +5,7 @@ import Footer from "../companents/footer.jsx";
 
 function Web() {
     return (
-        <div>
+        <div className="duration-300">
             <Header />
             <Outlet />
             <Footer />

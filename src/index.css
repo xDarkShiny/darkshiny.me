@@ -6,9 +6,14 @@
 body {
   font-family: 'Inter', sans-serif;
   color: white;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 ::selection {
   color: black;
   background-color: #006BFF;
 }
+
+

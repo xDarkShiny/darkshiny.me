@@ -7,6 +7,7 @@ import react from '../../../assets/react.svg';
 
 
 
+
 function Content() {
     return (
         <div className="flex md:flex-row flex-col items-center justify-self-start xl:space-x-[300px] xl:space-y-0 space-y-5  ">

@@ -43,15 +43,15 @@ function header() {
             </div>
             <div className="sm:hidden block">
                 <div className="items-center flex flex-col">
-                    <div className="bg-[#232323] w-full h-[57px] border-b-4 border-[#535252] flex  items-center justify-center justify-between">
+                    <div className="bg-[#232323] w-full h-[57px] border-b-4 border-[#535252] flex   items-center justify-center justify-between">
                         <img className="mb-2 ml-5" src={logo} alt=""/>
                         <h1 className="text-white text-[#6D6D6D] uppercase">ITS A MOBILE VERSION</h1>
-                        <button className="px-4 text-white" onClick={toggleMenu}><img src={Hamburguer} alt=""/></button>
+                        <button className="px-3 text-white duration-300 hover:scale-90 hover:bg-white/10 py-2 hover:text-sm  rounded-lg " onClick={toggleMenu}><img src={Hamburguer} alt=""/></button>
                     </div>
                     {menu === true &&
-                        <div className="bg-[#006BFF] w-full h-[40px] space-x-5 text-white font-bold uppercase flex items-center justify-center">
-                            <a href="/" >Home</a>
-                            <a href="/projects">Projects</a>
+                        <div className="bg-[#2c2c2c] w-full h-[40px] space-x-5 text-white font-bold uppercase flex items-center justify-center duration-300">
+                        <a className='transition-all ease-in-out duration-300 hover:scale-95 hover:bg-white/10 py-1 hover:text-sm px-3 rounded-lg' href="/" >Home</a>
+                        <a className="transition-all ease-in-out duration-300 hover:scale-95 hover:bg-white/10 py-1 hover:text-sm px-3 rounded-lg" href="/projects">Projects</a>
                         </div>
                     }
 
